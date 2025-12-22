@@ -1,13 +1,8 @@
-# eu-ai-act-regulatory-sandboxes
-Structured analysis and governance-oriented feedback on EU AI Act regulatory sandboxes, focusing on interoperability, operationalisation and production-grade prototyping.
-
----
-
 # *EU AI Act – Regulatory Sandboxes*
 
 This repository provides a **structured, governance-oriented analysis of the draft implementing act on AI regulatory sandboxes under the EU AI Act**.
 
-Its purpose is to contribute to the ongoing policy discussion by examining how regulatory sandboxes can effectively support innovation **while remaining interoperable, secure, and production-relevant** in highly regulated environments.
+Its purpose is to contribute to the ongoing policy discussion by examining how regulatory sandboxes can effectively support innovation **while remaining interoperable, secure, and production-relevant** across sectors, particularly in regulated and high-impact environments.
 
 The content is based on practical experience in large-scale digital infrastructure, public-sector IT, and software architecture, with a particular focus on:
 - interoperability across organisational and national boundaries,
