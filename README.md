@@ -11,6 +11,8 @@ The content is based on practical experience in large-scale digital infrastructu
 
 Rather than treating regulatory sandboxes as experimental playgrounds, this repository approaches them as **learning infrastructures** that should reduce fragmentation, enable regulatory learning, and create reliable transition paths from experimentation to real-world deployment.
 
+While the objectives of AI regulatory sandboxes are clearly defined at the level of [Regulation (EU) 2024/1689 – Artificial Intelligence Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689), the draft implementing act primarily focuses on procedural alignment rather than on operational or technical concretisation of those objectives.
+
 The repository is intentionally maintained in a **transparent** and **versioned** manner to reflect the **iterative** nature of both **software development** and modern **collaboration in large-scale agile** contexts such as **regulatory initiatives**, **large-scale pilots**, and **complex multi-stakeholder environments**.
 
 ---
