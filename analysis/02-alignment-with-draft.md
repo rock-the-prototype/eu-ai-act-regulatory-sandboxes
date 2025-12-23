@@ -117,9 +117,24 @@ The absence of such an explicit baseline limits the ability to relate outcomes a
 
 ## Summary
 
-**The draft implementing act primarily establishes a procedural framework. However, for AI regulatory sandboxes to function as effective learning and transition instruments, procedural clarity alone is not sufficient without explicit operational and technical reference points that ensure comparability, transferability, and production relevance.**
+**The draft implementing act primarily prepares to establish a procedural framework. However, for AI regulatory sandboxes to function as effective learning and transition instruments, procedural clarity alone is not sufficient without explicit operational and technical reference points that ensure comparability, transferability, and production relevance.**
 
-**At the same time, several requirements relevant to interoperability, operational transferability, and long-term regulatory learning are only partially addressed or remain implicit. As a result, the practical effectiveness of AI regulatory sandboxes is likely to depend largely on subsequent implementation choices by competent authorities and participating organisations.**
+### Absence of an operational definition
 
-**This assessment serves as a neutral reference for further discussion and does not constitute a legal evaluation of the draft implementing act.**
+**As set out in [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689), AI regulatory sandboxes describes the purpose and intended function of AI regulatory sandboxes primarily through functional and teleological language. In particular, AI regulatory sandboxes are characterised as controlled frameworks established by competent authorities to enable the development, training, validation, and testing of innovative AI systems under regulatory supervision and for a limited time before market placement.**
+
+**However, the regulatory framework does not provide a consolidated operational or technical definition of what constitutes an AI regulatory sandbox in practice. The description remains purpose-driven rather than definitional and does not specify minimum structural, technical, or organisational characteristics that would distinguish regulatory sandboxes from other forms of pilot environments, testbeds, or innovation programmes.**
+
+**As a result, substantial interpretative discretion is delegated to competent authorities at national or sectoral level. While this flexibility supports contextual adaptation, it also introduces the risk of heterogeneous implementations that may differ significantly in scope, maturity, and operational depth.**
+
+**From a regulatory learning perspective, the absence of a shared operational definition may limit comparability across sandbox initiatives and reduce the transferability of insights between jurisdictions, sectors, and implementation cycles. This becomes particularly relevant where regulatory sandboxes are expected to function not only as isolated experimentation environments but also as instruments for systematic learning and transition towards compliant market deployment.**
+**
+
+### Partial coverage of interoperability and operational transferability
+
+**Several requirements relevant to interoperability, operational transferability, and long-term regulatory learning are only partially addressed or remain implicit in the draft implementing act. As a result, the practical effectiveness of AI regulatory sandboxes is likely to depend largely on subsequent implementation choices by competent authorities and participating organisations.**
+
+### Scope and intent of this assessment
+
+This assessment serves as a neutral reference for further discussion and does not constitute a legal evaluation of the draft implementing act.
 
