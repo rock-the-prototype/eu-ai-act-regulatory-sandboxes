@@ -19,7 +19,7 @@ I translate the EU AI Act’s regulatory sandbox intent into implementable, inte
 
   Goal:
   I develop a domain-specific language (DSL) that:
-  * is human- and machine-readable (e.g., JSON or simple text form),
+  * is human- and machine-readable,
   * represents syntactically unambiguous, verifiable requirements (AFOs),
   * is testable and versionable (Git integration),
   * can be automatically validated and audited (CI/CD),
