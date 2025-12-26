@@ -3,15 +3,15 @@
 I translate the EU AI Act’s regulatory sandbox intent into implementable, interoperable architecture and evidence patterns — designed for large-scale, cross-organisation rollout.
 
 ## Identity, role and function
-- Founder & Managing Director (sole shareholder), INZTITUT GmbH (private sector)
+- Founder & Managing Director (sole shareholder), INZTITUT GmbH (private sector)  
 - Author: [BLOCK, Sascha.Large-Scale Agile Frameworks: Agile Frameworks, agile Infrastruktur und pragmatische Lösungen zur digitalen Transformation.](https://link.springer.com/book/10.1007/978-3-662-62048-9) Berlin, Heidelberg: Springer Vieweg, 2023. ISBN 978-3-662-62047-2 (Print). ISBN 978-3-662-62048-9 (eBook). DOI 10.1007/978-3-662-62048-9. [Verfügbar unter: SpringerLink (DE)](https://link.springer.com/book/10.1007/978-3-662-62048-9)
 - Author: [BLOCK, Sascha.Large-Scale Agile Frameworks: Agile Frameworks, Agile Infrastructure and Pragmatic Solutions for Digital Transformation.](https://link.springer.com/book/10.1007/978-3-662-67782-7)  Berlin, Heidelberg: Springer, 2023. ISBN 978-3-662-67781-0 (Print). ISBN 978-3-662-67782-7 (eBook). DOI 10.1007/978-3-662-67782-7. [Available at: SpringerLink (EN)](https://link.springer.com/book/10.1007/978-3-662-67782-7) 
 
 ## Primary objectives 
-- Role: Standards & Interoperability Architect, Initiator of Rock the Prototype - Prototyping & Software development
+- Role: Standards & Interoperability Architect, Creator of Rock the Prototype - Prototyping & Software development
 - Mission: Strengthen common good outcomes by reducing fragmentation and enabling portability across organisations and Member States.
 - Values: interoperability, transparency of obligations, vendor neutrality.
-- Focus: Author and Lead architect of [dsl-core](https://github.com/rock-the-prototype/dsl-core) — an open, formal specification for defining software requirements in a deterministic, machine-readable, Git-versioned and audit-ready way, enabling systematic verification of implementations in regulated and trustworthy digital systems.
+- Focus: Author and Lead architect of [dsl-core](https://github.com/rock-the-prototype/dsl-core) — an open, formal standard specification for defining software requirements in a deterministic, machine-readable, Git-versioned and audit-ready way, enabling systematic verification of implementations in regulated and trustworthy digital systems.
 
   I work on an open, formal standard that enables software requirements to be defined in a revision-safe, machine-readable, versioned and auditable form — so trustworthy digitalisation becomes verifiable, not interpretive.
 
