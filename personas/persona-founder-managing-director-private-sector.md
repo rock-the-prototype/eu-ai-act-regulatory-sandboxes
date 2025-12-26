@@ -38,9 +38,9 @@ From this perspective, it is essential that publicly financed digital components
 portable, inspectable, and standards-based — so that trust, security, and long-term viability remain verifiable across organisations and over time.
 
 ## Public goods versus black-box solutions
-In publicly funded digital health infrastructure, long-term trust and resilience depend on whether critical components remain interoperable and verifiable across organisations. When essential digital capabilities are delivered as non-transparent, non-portable solutions, auditability and reuse become structurally constrained.
+In any digital infrastructure, long-term trust and resilience depend on whether critical components remain interoperable and verifiable across organisations. When essential digital capabilities are delivered as non-transparent, non-portable solutions, auditability and reuse become structurally constrained.
 
-From a public-law perspective, publicly financed digital components should function as digital public goods:
+From a compliance perspective, publicly financed digital components should function as digital public goods:
 transparent by default, audit-ready by design, and interoperable as a baseline.
 These properties are prerequisites for trust, security, and long-term viability in public-law systems.
 
