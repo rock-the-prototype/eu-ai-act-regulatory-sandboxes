@@ -37,7 +37,7 @@ Modern software delivery is structurally dependent on external resources: cloud 
 From this perspective, it is essential that publicly financed digital components evolve as digital public goods:
 portable, inspectable, and standards-based — so that trust, security, and long-term viability remain verifiable across organisations and over time.
 
-## Public goods versus black-box solutions
+## Digital Sovereignty & Open Source as public goods versus black-box solutions
 In any digital infrastructure, long-term trust and resilience depend on whether critical components remain interoperable and verifiable across organisations. When essential digital capabilities are delivered as non-transparent, non-portable solutions, auditability and reuse become structurally constrained.
 
 From a compliance perspective, publicly financed digital components should function as digital public goods:
