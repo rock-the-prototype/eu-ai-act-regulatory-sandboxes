@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "artifact": "requirements.ai-act-sandbox.dsl.json",
+    "method": "structured requirement representation inspired by dsl-core",
+    "scope": "EU AI Act regulatory sandboxes",
+    "version": "0.1.1",
+    "definitions": {
+      "subject": "The regulated artefact to which the requirement applies, independent of implementing authority or governance structure"
+    },
+    "source_repository": "rock-the-prototype/eu-ai-act-regulatory-sandboxes"
+  },
+  "requirements": [
+    {
+      "id": "AIACT-SBX-REQ-001",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define technical and organisational interfaces between participating actors and systems"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-002",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "support integration with existing standards and infrastructures relevant to the sandbox context"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-003",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "ensure consistent handling of identity and access across organisational boundaries within the sandbox"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-004",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "document the intended relationship between sandbox configurations and downstream production deployment contexts"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-005",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define data sources and permitted data uses for sandbox activities"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-006",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "provide traceability of data flows within the sandbox environment"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-007",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define retention and deletion rules for data ingested into the sandbox"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-008",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define how changes in legal or factual conditions affecting sandbox data are handled"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-009",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define a mechanism to document and apply requests to exclude previously used data from influencing system behaviour"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-010",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "establish a shared security-by-design baseline applicable to sandbox operation"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-011",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "enable assessment of residual risks against the security-by-design baseline"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-012",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "maintain a versioned baseline of sandbox configurations and applied assumptions"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-013",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "make changes to sandbox configurations traceable over time"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-014",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "support reproducibility of sandbox findings by referencing a specific sandbox baseline version"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-015",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "provide identity and access management for human participants in sandbox activities"
+      }
+    },
+    {
+      "id": "AIACT-SBX-REQ-016",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "provide identifiable and accountable service identities for technical services and automated components"
+      }
+    }
+  ]
+}
