@@ -58,6 +58,6 @@ The use of Git is not intended to replace accessible consultation formats, but t
 
 ## Attribution
 
-© 2025 Sascha Block / Rock the Prototype
+© 2025-2026 Sascha Block / Rock the Prototype
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
