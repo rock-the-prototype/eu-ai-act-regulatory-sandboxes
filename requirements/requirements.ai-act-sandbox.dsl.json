@@ -1,11 +1,16 @@
+```json
 {
   "meta": {
     "artifact": "requirements.ai-act-sandbox.dsl.json",
-    "method": "structured requirement representation inspired by dsl-core",
+    "method": "structured requirement representation based on dsl-core",
+    "method_repository": "https://github.com/rock-the-prototype/dsl-core",
     "scope": "EU AI Act regulatory sandboxes",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "definitions": {
-      "subject": "The regulated artefact to which the requirement applies, independent of implementing authority or governance structure"
+      "subject": "The regulated artefact to which the requirement applies, independent of implementing authority or governance structure",
+      "acceptance_criteria": "Verifiable conditions that indicate that a requirement is fulfilled",
+      "verification_method": "The method used to assess whether an acceptance criterion is met (e.g. inspection, review, test, audit)",
+      "verification_artefacts": "Artefacts that must be available in order to verify an acceptance criterion"
     },
     "source_repository": "rock-the-prototype/eu-ai-act-regulatory-sandboxes"
   },
@@ -18,7 +23,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "define technical and organisational interfaces between participating actors and systems"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-001-AC-01",
+          "statement": "A documented interface inventory exists that lists participating actors/systems and the interfaces between them.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Interface catalogue (human-readable)",
+            "Machine-readable interface definitions"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-001-AC-02",
+          "statement": "For each interface, the owning party and operational responsibility are explicitly stated.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Interface ownership metadata",
+            "RACI or responsibility assignments"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-002",
@@ -28,7 +53,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "support integration with existing standards and infrastructures relevant to the sandbox context"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-002-AC-01",
+          "statement": "A standards and infrastructure register exists identifying the relevant standards and infrastructures for the sandbox context.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Standards and infrastructure register",
+            "References to applicable standards and infrastructures"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-002-AC-02",
+          "statement": "Integration points to the identified standards and infrastructures are documented and traceable to sandbox components.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Architecture documentation",
+            "Trace links between components and standards/infrastructure integration points"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-003",
@@ -38,7 +83,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "ensure consistent handling of identity and access across organisational boundaries within the sandbox"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-003-AC-01",
+          "statement": "A documented identity and access model exists describing roles, permissions, and cross-organisation access boundaries.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "IAM model documentation",
+            "Role and permission matrix"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-003-AC-02",
+          "statement": "Access decisions are enforced consistently across participating systems according to the documented model.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Access policy definitions (e.g. policy-as-code or configuration)",
+            "Audit logs demonstrating enforcement"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-004",
@@ -48,7 +113,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "document the intended relationship between sandbox configurations and downstream production deployment contexts"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-004-AC-01",
+          "statement": "A production relevance statement exists describing which sandbox characteristics are intended to align with production and which are intentionally different.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Production relevance / parity statement",
+            "List of aligned characteristics and intentional deviations"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-004-AC-02",
+          "statement": "For each intentional deviation from production, the rationale and expected impact on findings are documented.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Deviation log (delta log)",
+            "Rationale and impact notes per deviation"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-005",
@@ -58,7 +143,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "define data sources and permitted data uses for sandbox activities"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-005-AC-01",
+          "statement": "A data source register exists listing all data sources used in the sandbox, including origin and classification.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Data source register (inventory)",
+            "Data classification attributes"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-005-AC-02",
+          "statement": "Permitted uses are explicitly documented per data source and linked to sandbox activities.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Permitted-use matrix",
+            "Links between data sources and sandbox activities"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-006",
@@ -68,7 +173,26 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "provide traceability of data flows within the sandbox environment"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-006-AC-01",
+          "statement": "A data flow model exists showing ingestion, processing, storage, and outputs within the sandbox.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Data flow diagrams (human-readable) and/or machine-readable flow definitions"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-006-AC-02",
+          "statement": "For each data flow, processing steps are traceable to responsible components and stated purposes.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Trace links from flow elements to components",
+            "Purpose annotations for processing steps"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-007",
@@ -78,7 +202,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "define retention and deletion rules for data ingested into the sandbox"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-007-AC-01",
+          "statement": "Retention periods are defined per data category and aligned with the permitted-use definitions.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Retention schedule",
+            "Mapping between data categories and permitted uses"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-007-AC-02",
+          "statement": "Deletion rules describe triggers, responsibilities, and verification of deletion outcomes.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Deletion procedure",
+            "Deletion verification mechanism (e.g. logs or attestations)"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-008",
@@ -88,7 +232,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "define how changes in legal or factual conditions affecting sandbox data are handled"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-008-AC-01",
+          "statement": "A change-handling procedure exists for legal or factual condition changes that affect data permissions or validity.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Change-handling procedure",
+            "Defined triggers and impact assessment steps"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-008-AC-02",
+          "statement": "Decisions resulting from such changes are recorded and linked to affected datasets, data flows, and sandbox activities.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Change decision log",
+            "Trace links to datasets, flows, and activities"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-009",
@@ -98,7 +262,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "define a mechanism to document and apply requests to exclude previously used data from influencing system behaviour"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-009-AC-01",
+          "statement": "A documented process exists to register exclusion requests for previously used data, including scope and rationale.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Exclusion request process description",
+            "Exclusion/unlearning request register"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-009-AC-02",
+          "statement": "For each exclusion request, the applied mitigation or adjustment is documented and linked to the affected model or system version.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Mitigation/adjustment records per request",
+            "Trace links to affected model/system version identifiers"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-010",
@@ -108,7 +292,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "establish a shared security-by-design baseline applicable to sandbox operation"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-010-AC-01",
+          "statement": "A security-by-design baseline exists defining common principles and minimum control expectations for sandbox operation.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Security-by-design baseline document",
+            "Baseline version identifier"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-010-AC-02",
+          "statement": "Sandbox participants can reference the baseline when designing or operating sandbox components.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Operational documentation referencing the baseline",
+            "Onboarding materials referencing the baseline"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-011",
@@ -118,7 +322,28 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "enable assessment of residual risks against the security-by-design baseline"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-011-AC-01",
+          "statement": "A residual-risk assessment template or process exists that explicitly references the security-by-design baseline.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Residual-risk assessment template/process",
+            "References to baseline controls/principles"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-011-AC-02",
+          "statement": "Residual risks are recorded with rationale and linked to the sandbox baseline version and relevant components.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Risk register",
+            "Links to baseline version identifiers",
+            "Links to relevant components"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-012",
@@ -128,7 +353,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "maintain a versioned baseline of sandbox configurations and applied assumptions"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-012-AC-01",
+          "statement": "A baseline artefact exists that records sandbox configuration and assumptions and is assigned a version identifier.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Baseline artefact (configuration and assumptions)",
+            "Baseline version identifier"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-012-AC-02",
+          "statement": "Changes to configuration or assumptions result in a new baseline version and are recorded as such.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Baseline version history",
+            "Recorded changes linked to baseline versions"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-013",
@@ -138,7 +383,28 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "make changes to sandbox configurations traceable over time"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-013-AC-01",
+          "statement": "A change log exists that records what changed, when, and why for sandbox configurations.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Change log entries",
+            "Timestamps and rationale fields in change log entries"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-013-AC-02",
+          "statement": "Each change entry references the affected configuration elements and the resulting baseline version.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Change log entries",
+            "Configuration element identifiers",
+            "Baseline version identifiers"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-014",
@@ -148,7 +414,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "support reproducibility of sandbox findings by referencing a specific sandbox baseline version"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-014-AC-01",
+          "statement": "Sandbox outputs include an explicit reference to the baseline version under which they were produced.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Sandbox outputs (reports/findings)",
+            "Output metadata containing baseline version identifier"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-014-AC-02",
+          "statement": "The referenced baseline version can be retrieved and inspected to reconstruct the relevant configuration and assumptions.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Baseline archive/store keyed by version identifier",
+            "Baseline artefact content (configuration and assumptions)"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-015",
@@ -158,7 +444,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "provide identity and access management for human participants in sandbox activities"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-015-AC-01",
+          "statement": "Human participant roles are defined and mapped to permissions relevant to sandbox activities.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Role definitions",
+            "Role-permission matrix"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-015-AC-02",
+          "statement": "Access to sandbox resources is granted and revoked according to the defined roles and permissions.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Provisioning and deprovisioning procedure",
+            "Access audit evidence (e.g. logs or attestations)"
+          ]
+        }
+      ]
     },
     {
       "id": "AIACT-SBX-REQ-016",
@@ -168,7 +474,27 @@
         "subject": "EU AI Act regulatory sandbox framework",
         "modal_verb": "MUST",
         "action": "provide identifiable and accountable service identities for technical services and automated components"
-      }
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-016-AC-01",
+          "statement": "Service identities are defined for technical services and automations that access sandbox resources.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Service identity inventory",
+            "Permissions assigned to service identities"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-016-AC-02",
+          "statement": "Actions performed by service identities are traceable to the specific service identity used.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Audit logs",
+            "Service identity identifiers recorded in relevant log entries"
+          ]
+        }
+      ]
     }
   ]
 }
