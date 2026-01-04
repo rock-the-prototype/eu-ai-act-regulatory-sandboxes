@@ -25,7 +25,7 @@ A requirement MUST include:
 - `structure.action` (string)
 - `acceptance_criteria` (array; MAY be empty during early drafts, but SHOULD exist)
 
-[Detailed information within DSL Core standard specificarion]([https://link-url-here.org](https://github.com/rock-the-prototype/dsl-core))
+[Detailed information within DSL Core standard specificarion](https://github.com/rock-the-prototype/dsl-core)
 
 ### 1.2 Naming conventions
 
