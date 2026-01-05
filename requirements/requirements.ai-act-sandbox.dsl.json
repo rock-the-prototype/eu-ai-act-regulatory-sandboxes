@@ -1,11 +1,10 @@
-```json
 {
   "meta": {
     "artifact": "requirements.ai-act-sandbox.dsl.json",
     "method": "structured requirement representation based on dsl-core",
     "method_repository": "https://github.com/rock-the-prototype/dsl-core",
     "scope": "EU AI Act regulatory sandboxes",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "definitions": {
       "subject": "The regulated artefact to which the requirement applies, independent of implementing authority or governance structure",
       "acceptance_criteria": "Verifiable conditions that indicate that a requirement is fulfilled",
@@ -492,6 +491,243 @@
           "verification_artefacts": [
             "Audit logs",
             "Service identity identifiers recorded in relevant log entries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-017",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define and maintain a transparency concept that describes scope, roles, system boundaries, data categories, applicable constraints, and participant-facing disclosures"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-017-AC-01",
+          "statement": "A versioned transparency concept exists that defines scope, participating roles, system boundaries, and the sandbox’s purpose and constraints.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Transparency concept document (versioned)",
+            "Baseline/version references linking the concept to sandbox baselines"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-017-AC-02",
+          "statement": "The transparency concept lists data categories processed in the sandbox and the high-level purposes for processing.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Transparency concept section: data categories",
+            "Transparency concept section: purposes"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-017-AC-03",
+          "statement": "Participant-facing disclosures are available in a human-readable form and linked to the corresponding sandbox baseline version.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Public disclosure page/document",
+            "Disclosure metadata referencing baseline/version identifiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-018",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "define an explainability approach appropriate to the AI system type and risk context, including explicit limitations of the provided explanations"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-018-AC-01",
+          "statement": "An explainability concept exists defining intended audiences and the explanation mechanisms provided for each audience.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Explainability concept",
+            "Audience-to-mechanism mapping"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-018-AC-02",
+          "statement": "For each explanation mechanism, documented limitations and uncertainty boundaries exist (what the explanation can and cannot support).",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Explainability concept: limitations section per mechanism"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-018-AC-03",
+          "statement": "The explainability concept is traceable to the sandbox baseline versions under which explanations are generated.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Baseline/version references in explainability concept",
+            "Links from sandbox outputs to baseline/version identifiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-019",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "assess and document bias and fairness risks within the sandbox scope, including measurement approach, test scope, and known limitations"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-019-AC-01",
+          "statement": "A bias/fairness assessment exists defining what is measured, which dimensions or proxies are used, and what is out of scope.",
+          "verification_method": "Review",
+          "verification_artefacts": [
+            "Bias/fairness assessment report",
+            "Documented scope and definitions"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-019-AC-02",
+          "statement": "Assessment results are documented with interpretation guidance and limitations (e.g., dataset representativeness, measurement constraints).",
+          "verification_method": "Review",
+          "verification_artefacts": [
+            "Bias/fairness assessment report: results section",
+            "Limitations and interpretation guidance"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-019-AC-03",
+          "statement": "The assessment is traceable to the sandbox configuration/baseline under which it was performed.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Baseline/version reference in the assessment report",
+            "Links to relevant sandbox configuration identifiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-020",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "document mitigation strategies for identified bias/fairness risks and provide participant-facing guidance on residual risks and interpretation limits"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-020-AC-01",
+          "statement": "A mitigation plan exists that maps identified bias/fairness risks to mitigation measures and responsible owners.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Mitigation plan",
+            "Risk-to-measure mapping",
+            "Ownership metadata (e.g., RACI)"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-020-AC-02",
+          "statement": "Participant-facing guidance exists describing residual bias/fairness risks and interpretation limits in clear language.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Participant guidance document/page",
+            "Link to corresponding mitigation plan version"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-020-AC-03",
+          "statement": "Mitigation changes and guidance updates are versioned and linked to sandbox baselines.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Changelog entries",
+            "Baseline/version references for mitigation/guidance artefacts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-021",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "implement and document data protection controls for any personal, sensitive, or regulated data used for training, fine-tuning, evaluation, or testing, including minimisation and appropriate transformations (e.g. pseudonymisation/anonymisation) where applicable"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-021-AC-01",
+          "statement": "A data inventory exists listing datasets, categories, purposes (training/fine-tuning/evaluation/testing), permitted uses, and retention/deletion rules.",
+          "verification_method": "Inspection",
+          "verification_artefacts": [
+            "Data inventory/register",
+            "Lifecycle fields (purpose, permitted use, retention, deletion)"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-021-AC-02",
+          "statement": "For each dataset, documented protective measures exist (access controls, minimisation steps, and transformations where applicable) including rationale when transformations are not applicable.",
+          "verification_method": "Review",
+          "verification_artefacts": [
+            "Per-dataset protection record",
+            "Rationale entries for non-applicable transformations"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-021-AC-03",
+          "statement": "Evidence exists that retention/deletion rules can be executed and are auditable within the sandbox context.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Deletion attestations and/or audit logs",
+            "References to retention/deletion policies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AIACT-SBX-REQ-022",
+      "type": "AFO",
+      "status": "draft",
+      "structure": {
+        "subject": "EU AI Act regulatory sandbox framework",
+        "modal_verb": "MUST",
+        "action": "where instruction-following or LLM-based components are used, perform structured testing for prompt injection and related AI-specific attack patterns, and maintain traceable remediation and regression evidence"
+      },
+      "acceptance_criteria": [
+        {
+          "id": "AIACT-SBX-REQ-022-AC-01",
+          "statement": "A threat model exists that identifies trust boundaries, assets, attacker goals, and LLM/tool integration risks (where applicable).",
+          "verification_method": "Review",
+          "verification_artefacts": [
+            "Threat model document",
+            "Trust boundary definitions",
+            "AI-specific risk list (where applicable)"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-022-AC-02",
+          "statement": "A test plan exists that includes prompt injection/jailbreak scenarios, data exfiltration attempts, and tool misuse cases (where applicable).",
+          "verification_method": "Review",
+          "verification_artefacts": [
+            "Security test plan",
+            "Enumerated AI-specific test cases (where applicable)"
+          ]
+        },
+        {
+          "id": "AIACT-SBX-REQ-022-AC-03",
+          "statement": "Findings, mitigations, and regression results are versioned and linked to sandbox baselines.",
+          "verification_method": "Audit",
+          "verification_artefacts": [
+            "Issue log / findings register",
+            "Mitigation records",
+            "Regression evidence",
+            "Baseline/version references"
           ]
         }
       ]
