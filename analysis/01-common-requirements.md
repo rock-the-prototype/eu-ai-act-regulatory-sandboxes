@@ -63,6 +63,48 @@ Such a baseline does not prescribe specific technologies but establishes a commo
 
 ---
 
+## Transparency and disclosure
+
+Regulatory sandboxes operate in contexts where trust, accountability, and informed participation matter. A transparency and disclosure concept supports clarity on scope, roles, boundaries, and constraints of sandbox activities.
+
+From an operational perspective, sandbox environments benefit from:
+
+- participant-facing disclosures that explain relevant assumptions and constraints in a human-readable form,
+- explicit communication of what is in scope vs. out of scope for sandbox activities,
+- and linkage of disclosures to the applicable sandbox configuration or baseline version, enabling traceability over time.
+
+Explainability and limitations
+Where AI systems are developed or tested in sandbox settings, explainability mechanisms can support informed oversight and responsible use.
+
+Sandbox environments benefit from:
+
+- an explainability approach appropriate to the AI system type and risk context,
+- explicit documentation of limitations and uncertainty boundaries of provided explanations,
+- and traceability of explainability artefacts to the sandbox baseline under which they were generated.
+
+---
+
+## Bias and fairness governance
+Sandbox activities may involve AI systems whose outputs can be affected by bias or fairness-related risks. Addressing these aspects supports informed regulatory learning and comparability of outcomes.
+
+Sandbox environments benefit from:
+
+- structured bias/fairness assessments within the sandbox scope, including measurement approach and known limitations,
+- documentation of mitigation strategies and residual risks,
+- and participant-facing guidance that supports correct interpretation of results and limitations.
+
+---
+
+## AI-specific security testing (where applicable)
+Where instruction-following or LLM-based components are used, AI-specific attack patterns (e.g., prompt injection, tool misuse, data exfiltration via prompts) may become relevant.
+
+Sandbox environments benefit from:
+
+- structured security testing that covers AI-specific attack scenarios where applicable,
+- traceable remediation and regression evidence linked to sandbox baselines,
+- and documentation of relevant trust boundaries and protective assumptions.
+
+
 ## Versioned and auditable sandbox baseline
 
 Regulatory sandboxes are dynamic by nature. Configurations, rules, and assumptions evolve over time as learning progresses.
