@@ -42,6 +42,27 @@ From a design perspective, making data-related assumptions, boundaries, and resp
 
 ---
 
+## Transparency and disclosure as a design dimension
+
+Transparency concepts and participant-facing disclosures support trust, accountability, and informed participation. Linking disclosures to sandbox baselines strengthens traceability and enables comparable assurance over time.
+
+---
+
+## Explainability as a context-dependent assurance mechanism (where applicable)
+Explainability approaches should reflect system type and risk context and make limitations explicit. Treating explainability artefacts as baseline-linked outputs supports comparability across sandbox instances and cycles.
+
+---
+
+## Bias and fairness governance as repeatable learning artefact (where applicable)
+Bias/fairness assessments and mitigation guidance can be treated as repeatable artefacts that support regulatory learning. Versioning and baseline linkage make it possible to contextualise outcomes and compare them across implementations.
+
+---
+
+## AI-specific security testing as part of the baseline (where applicable)
+Where LLM-based components are used, structured testing for AI-specific attack patterns can complement a general security-by-design baseline. Versioned remediation and regression evidence supports consistent assurance and reduces repeated effort across multiple sandbox instances.
+
+---
+
 ## Versioning, traceability, and institutional memory
 
 AI regulatory sandboxes operate over time and across multiple participation cycles, further technology development and release iteration.
