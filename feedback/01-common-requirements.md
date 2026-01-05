@@ -53,6 +53,52 @@ Such a baseline does not prescribe specific technologies but establishes common 
 
 ---
 
+## Transparency concept
+
+AI regulatory sandboxes benefit from a transparency concept that describes scope, roles, system boundaries, relevant constraints, and participant-facing disclosures.
+
+Transparency supports:
+
+- clarity on what is in scope and what is not,
+- accountable participation and oversight,
+- and linkage of disclosures to sandbox baseline versions for traceability over time.
+
+---
+
+## Explainability approach (including limitations)
+Where AI systems are developed or tested, an explainability approach supports informed oversight and responsible use.
+
+Explainability supports:
+
+- providing explanations appropriate to the system type and risk context,
+- explicit documentation of limitations and uncertainty boundaries,
+- and comparability of explainability artefacts across sandbox instances.
+
+---
+
+## Bias and fairness governance
+AI regulatory sandboxes may involve systems where bias and fairness risks become relevant for users, oversight bodies, and affected groups.
+
+Bias and fairness governance supports:
+
+- structured assessment and documentation of bias/fairness risks within scope,
+- mitigation planning and documentation of residual risks,
+- and participant-facing guidance for correct interpretation of outputs and limitations.
+
+---
+
+## AI-specific security testing (where applicable)
+Where instruction-following or LLM-based components are used, AI-specific attack patterns may represent a relevant security concern.
+
+AI-specific security testing supports:
+
+- structured testing for prompt injection and related scenarios where applicable,
+- traceable remediation and regression evidence,
+- and consistent assurance practices across sandbox environments.
+
+
+---
+
 ## Versioning and auditability
 
 AI regulatory sandboxes are dynamic environments. Configurations, assumptions, and rules may evolve over time.
