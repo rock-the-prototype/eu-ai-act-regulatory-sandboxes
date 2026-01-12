@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "artifact": "05_a_EU_AI_Act_Feedbackform.json",
+    "type": "consultation-form",
+    "title": "Targeted stakeholder consultation on the draft implementing act on AI regulatory sandboxes",
+    "language": "en",
+    "publisher": "European Commission – AI Office",
+    "legal_context": "Draft implementing act under Regulation (EU) 2024/1689 (AI Act)",
+    "availability": {
+      "start_date": "2025-12-02",
+      "end_date": "2026-01-13",
+      "language_restriction": "English only"
+    },
+    "notes": [
+      "Fields marked with * are mandatory",
+      "Responses will be published in aggregated form",
+      "Respondents will not be directly quoted"
+    ]
+  },
+
+  "introduction": {
+    "purpose": "The consultation collects stakeholder feedback on the draft implementing act setting out common rules for the establishment and operation of AI regulatory sandboxes under the AI Act.",
+    "sandbox_definition": "AI regulatory sandboxes enable prospective providers to develop, train, validate and test innovative AI systems for a limited time under regulatory supervision in a controlled framework, including real-world conditions where appropriate."
+  },
+
+  "sections": [
+    {
+      "id": "respondent_information",
+      "title": "Information about the respondent",
+      "fields": [
+        {
+          "id": "first_name",
+          "label": "First name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "surname",
+          "label": "Surname",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "email_address",
+          "label": "Email address",
+          "type": "string",
+          "format": "email",
+          "required": true
+        },
+        {
+          "id": "respondent_capacity",
+          "label": "Do you represent an organisation or act in your personal capacity?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            {
+              "value": "organisation",
+              "label": "Organisation"
+            },
+            {
+              "value": "personal_capacity",
+              "label": "In a personal capacity"
+            }
+          ]
+        },
+        {
+          "id": "sectors_of_activity",
+          "label": "Sector(s) of activity",
+          "type": "multi-choice",
+          "required": true,
+          "options": [
+            "Information technology",
+            "Public administration",
+            "Law enforcement",
+            "Justice sector",
+            "Legal services sector",
+            "Healthcare",
+            "Employment",
+            "Education and training",
+            "Telecommunications",
+            "Transport",
+            "Consumer services",
+            "Retail",
+            "Business services",
+            "E-commerce",
+            "Banking and finances",
+            "Advertising",
+            "Cultural and creative sector, including media",
+            "Manufacturing",
+            "Consumer protection",
+            "Energy",
+            "Others"
+          ]
+        },
+        {
+          "id": "activities_description",
+          "label": "Describe the activities of your organisation or yourself",
+          "type": "text",
+          "required": true,
+          "constraints": {
+            "max_characters": 1300
+          }
+        }
+      ]
+    },
+    {
+      "id": "substantive_feedback",
+      "title": "Feedback on the draft implementing act",
+      "fields": [
+        {
+          "id": "feedback_text",
+          "label": "Please share below your feedback on the draft implementing act on AI regulatory sandboxes, referring to specific articles, where possible.",
+          "type": "text",
+          "required": true,
+          "constraints": {
+            "min_characters": 500,
+            "max_characters": 4000
+          }
+        }
+      ]
+    },
+    {
+      "id": "privacy_and_publication",
+      "title": "Privacy and publication",
+      "fields": [
+        {
+          "id": "privacy_statement",
+          "label": "Privacy Statement",
+          "type": "reference",
+          "required": true,
+          "document": "Privacy_Statement_Consultation_on_the_draft_Implementing_Act_on_AI_regulatory_sandboxes__December_2025_.pdf"
+        },
+        {
+          "id": "publish_identity",
+          "label": "Do you agree that we may publish your identity with your contribution in case all contributions are made publicly available?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "id": "contact_permission",
+          "label": "Do you agree that we may contact you in the event of follow-up questions or if we want to learn more about your responses?",
+          "type": "single-choice",
+          "required": true,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    }
+  ]
+}
